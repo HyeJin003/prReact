@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <Header></Header>
-      <Editor onContentAdd={onContentAdd}></Editor>
+      <Editor></Editor>
       <List></List>
     </div>
   );
