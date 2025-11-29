@@ -32,7 +32,7 @@ function App() {
     <div className="App">
       <Header></Header>
       <Editor></Editor>
-      <List></List>
+      <List todos={todos}></List>
     </div>
   );
 }
